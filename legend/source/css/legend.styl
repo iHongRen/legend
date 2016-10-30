@@ -1,0 +1,45 @@
+@import "config";
+@import "reward" if hexo-config('alipay') or hexo-config('wechatpay');
+@import "header";
+@import "footer";
+@import "archive";
+@import "post";
+@import "home";
+@import "social";
+@import "page";
+
+*{
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#body-x {
+  background-color: white;
+}
+
+#body-home-bg {
+  background-color: white;
+  background: url(_home_bgimage) no-repeat;
+  background-size: cover;
+}
+
+#body-archive-bg {
+  background-color: #f7f7f7;
+}
+
+#layout-content {
+  min-height: 100%;
+  margin-bottom: -30px; 
+}
+
+#layout-content:after {
+  content: "";
+  display: block;
+}
+
+
+
+

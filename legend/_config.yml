@@ -1,0 +1,110 @@
+########################################################
+# ps: 继承至hexo的 _config.yml文件
+##########################################################
+
+# html lang
+language: zh-CN
+
+# main menu navigation
+menu:
+  首页: /
+  归档: /archives
+  #关于: /about   # 默认使用主页的about风格,所以先注释掉 #
+
+# Miscelaneous
+favicon: /favicon.png
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/legend.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/legend.js
+
+##必须修改部分########################################################################
+#### 以下是你需要到hexo主配置(最外层_config.yml)修改的参数 
+# url: http://yoursite.com 改为你自己博客的网站，如我的：url: https://ihongren.github.io
+# per_page: 10 由于本主题归档页不分页，所以改为 per_page: 0 
+# theme: 添加本主题 theme: legend ，请确保本主题文件在theme目录下
+####################################################################################
+
+# comment 多说评论
+duoshuo_shortname: ihongren
+
+# donate 打赏
+wechatpay: /images/wechatpay.png
+alipay:  /images/alipay.png
+reward_comment: 文章对我有帮助，打赏作者
+
+
+
+# 个人社交主页 (可选择填写部分）
+social:
+  微博:
+    url: http://weibo.com/3169700852/
+    icon: /images/weibo.png
+  知乎: 
+    url: https://www.zhihu.com/people/hong-ren-84
+    icon: /images/zhihu.png
+  Github: 
+    url: https://github.com/iHongRen
+    icon: /images/github.png
+  LinkedIn:
+    url: https://www.linkedin.com
+    icon: /images/linkedin.png
+  Fackbook: 
+    url: https://facebook.com
+    icon: /images/facebook.png
+  Twitter:
+    url: https://twitter.com/ihongren
+    icon: /images/twitter.png
+
+##可选修改部分############################################################
+# RSS订阅
+plugin:
+- hexo-generator-feed
+subnav:
+rss: /atom.xml
+rss_icon: /images/rss.png
+
+# Feed Atom
+feed:
+type: atom
+path: atom
+
+# 主题主颜色
+theme_color: '#6d5aca'  #尝试替换自己喜欢的颜色 '#2ca6cb'... #
+theme_highlight_color: '#4400B3' # '#00bfff'... #
+
+# 代码主题 目前添加了两种: tomorrow.css | tomorrow-night.css  
+# 想要尝试更多请移步: https://jmblog.github.io/color-themes-for-google-code-prettify/ #
+code_theme: /plugins/code-theme/tomorrow.css
+
+# 主题的主字体 (header,footer...部分)
+theme_font_family: Microsoft Yahei
+
+# 首页背景视频 show表示是否要显示#
+home_video: 
+  src: "http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.mp4?v=1418162238190"
+  show: true
+  bgimage: /images/background.png
+
+# 背景音频源 #
+audio_src: "http://cdn.calm.com/scenes/scene-Qqkzy9k7Eo.m4a?v=1418162240715"
+
+# 主页音频是否显示 #
+home_audio: true
+
+# 文章页音频是否显示 #
+post_audio: true
+
+# 背景图片 #
+home_bgimage: /images/background.png
+
+# 关于页面设置，怎么生成关于页面? 命令: hexo new page about #
+#提供两种选择: 默认是第一种(home_about)
+#1.home_about:在主页显示关于我
+#2.menu_about:在菜单栏新开一个菜单"关于", 请确保菜单配置menu，添加了about项(打开上面menu,about的注释)
+about_type: home_about
+    

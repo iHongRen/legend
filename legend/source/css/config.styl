@@ -1,0 +1,24 @@
+//这里的变量能用于设置CSS
+//Color
+_theme_color = convert(hexo-config("theme_color"))
+if(_theme_color is a 'rgba') {
+  theme_color = _theme_color;
+} else {
+  theme_color = #6d5aca;
+}
+
+_theme_highlight_color = convert(hexo-config("theme_highlight_color"))
+if(_theme_highlight_color is a 'rgba') {
+  theme_highlight_color = _theme_highlight_color;
+} else {
+  theme_highlight_color = #4400B3;
+}
+
+_theme_font_family = convert(hexo-config("theme_font_family"))
+if(_theme_font_family) {
+  theme_font_family = _theme_font_family;
+} else {
+  theme_font_family = "Microsoft Yahei";
+}
+
+_home_bgimage = convert(hexo-config("home_bgimage"))
