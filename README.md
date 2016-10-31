@@ -1,9 +1,9 @@
 # legend  
 基于 [Hexo](https://hexo.io/) 的主题，完整的预览效果，猛戳 [https://ihongren.github.io](https://ihongren.github.io/)。
 ![](/screenshots/bg.png)
-### Version: 1.0
+# Version: 1.0
 
-### 使用：
+# 使用：
 
 0. 首先在使用此主题之前，假设你已经了解 [Hexo](https://hexo.io/) 和它的主题。
 
@@ -23,15 +23,15 @@
 
    如果成功你将会看到下面一段话：
 
-   *INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.* *       
+   *INFO  Hexo is running at [http://localhost:4000/](http://localhost:4000/) Press Ctrl+C to stop.* *       
 
-4. 在浏览器里输入 http://localhost:4000/，回车即可看到运行效果。
+4. 在浏览器里输入 [http://localhost:4000/](http://localhost:4000/)，回车即可看到运行效果。
 
 ---
 
 ### 主题配置：
 
-1. **Hexo** 的主配置文件 **_config.yml**，你可能需要修改一下字段：*(别忘了保存)*
+1. **Hexo** 的主配置文件 **_config.yml**，你可能需要修改以下参数：*(别忘了保存)*
 
    ```yaml
    # Site
@@ -87,7 +87,7 @@
        icon: /images/twitter.png
    ```
 
-   - 下面字段是可选修改的(根据自己喜好)：
+   - 下面参数是可选修改的(根据自己喜好)：
 
    ```yaml
    ##可选修改部分############################################################
@@ -139,11 +139,9 @@
    about_type: home_about
    ```
 
----
+# 关于(About)页面：
 
-### 关于(About)页面：
-
-如果你之前没有创建过 **about** 页面，可以通过下面命令：
+如果你之前没有创建过 **about** 页面，可以通过下面命令得到：
 
 ```shell
 hexo new page about
@@ -151,9 +149,7 @@ hexo new page about
 
 之后会在 **Hexo** 的 **source** 目录自动创建 **about/index.md** ，这个 **index.md** 就是我们的**关于(About)**页面。也就是说使用 **markdown** 语法来写自己的**关于我**。
 
----
-
-### TODO List: 
+# TODO List: 
 
 - 适配移动端
 - 站内搜索
@@ -161,11 +157,9 @@ hexo new page about
 - 页面美观交互优化
 - 未知需求
 
-**（希望能有前端小哥给我提PR ，那样我就能提升版本到 v2.0）**
+**（希望能有前端小哥给我提PR）**
 
----
-
-### 感谢：
+# 鸣谢：
 
 感谢以下主题，提供的参考帮助：
 
@@ -173,7 +167,9 @@ hexo new page about
 - [Random](https://github.com/stiekel/hexo-theme-random)
 
 
-### License:
+# License:
 
-**MIT** **License**
+[**MIT** **License**](/LICENSE)
+
+
 
