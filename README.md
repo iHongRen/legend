@@ -7,7 +7,11 @@
 
 0. 首先在使用此主题之前，假设你已经了解 [Hexo](https://hexo.io/) 和它的主题。
 
-1. 直接下载本主题，将 **legend** 文件夹放到 **Hexo** 的 **themes** 目录下，或者直接克隆到该目录下。
+1. 直接下载本主题，将 **legend** 文件夹放到 **Hexo** 的 **themes** 目录下，或者直接克隆到该目录下:
+
+   ```sh
+   $ git clone https://github.com/iHongRen/legend
+   ```
 
 2. 修改 **Hexo** 的 **_config.yml** 配置文件，将主题名字改为 **legend** 。*(别忘了保存)*
 
