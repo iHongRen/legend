@@ -18,7 +18,7 @@
 3. 打开命令行工具，切换到 **Hexo** 目录，执行：
 
    ```shell
-    hexo s
+    $ hexo s
    ```
 
    如果成功你将会看到下面一段话：
@@ -132,7 +132,7 @@
    # 背景图片 #
    home_bgimage: /images/background.png
 
-   # 关于页面设置，怎么生成关于页面? 命令: hexo new page about #
+   # 关于页面设置，怎么生成关于页面? 命令:$ hexo new page "about" #
    #提供两种选择: 默认是第一种(home_about)
    #1.home_about:在主页显示关于我
    #2.menu_about:在菜单栏新开一个菜单"关于", 请确保菜单配置menu，添加了about项(打开上面menu,about的注释)
@@ -144,7 +144,7 @@
 如果你之前没有创建过 **about** 页面，可以通过下面命令得到：
 
 ```shell
-hexo new page about
+$ hexo new page "about"
 ```
 
 之后会在 **Hexo** 的 **source** 目录自动创建 **about/index.md** ，这个 **index.md** 就是我们的**关于(About)**页面。也就是说使用 **markdown** 语法来写自己的**关于我**。

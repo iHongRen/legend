@@ -103,7 +103,7 @@ post_audio: true
 # 背景图片 #
 home_bgimage: /images/background.png
 
-# 关于页面设置，怎么生成关于页面? 命令: hexo new page about #
+# 关于页面设置，怎么生成关于页面? 命令:$ hexo new page "about"" #
 #提供两种选择: 默认是第一种(home_about)
 #1.home_about:在主页显示关于我
 #2.menu_about:在菜单栏新开一个菜单"关于", 请确保菜单配置menu，添加了about项(打开上面menu,about的注释)
