@@ -12,9 +12,6 @@ menu:
   归档: /archives
   #关于: /about   # 默认使用主页的about风格,所以先注释掉 #
 
-# Miscelaneous
-favicon: /favicon.png
-
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/legend.css
@@ -45,23 +42,26 @@ social:
   微博:
     url: http://weibo.com/3169700852/
     icon: /images/weibo.png
-  知乎: 
-    url: https://www.zhihu.com/people/hong-ren-84
-    icon: /images/zhihu.png
+#  知乎: 
+#    url: https://www.zhihu.com/people/hong-ren-84
+#    icon: /images/zhihu.png
   Github: 
     url: https://github.com/iHongRen
     icon: /images/github.png
-  LinkedIn:
-    url: https://www.linkedin.com
-    icon: /images/linkedin.png
-  Fackbook: 
-    url: https://facebook.com
-    icon: /images/facebook.png
+#  LinkedIn:
+#    url: https://www.linkedin.com
+#    icon: /images/linkedin.png
+#  Fackbook: 
+#    url: https://facebook.com
+#    icon: /images/facebook.png
   Twitter:
     url: https://twitter.com/ihongren
     icon: /images/twitter.png
 
 ##可选修改部分############################################################
+# Miscelaneous
+favicon: /favicon.ico
+
 # RSS订阅
 plugin:
 - hexo-generator-feed
