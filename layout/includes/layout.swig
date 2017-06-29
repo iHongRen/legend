@@ -39,8 +39,8 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
       {% endblock %}
     </div>
 
-    <!-- 多说评论框 -->    
-    {% if page.comments && (theme.duoshuo_shortname) %}
+    <!-- 友言评论框 -->    
+    {% if page.comments && (theme.livere_uid) %}
       <div class="ds-thread" data-thread-key="{{ page.path }}" data-title="{{ page.title }}" data-url="{{ page.permalink }}"></div>
     {% endif %}
   </div>
@@ -59,8 +59,8 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
 </html>
 
 {# 多少评论脚本 #}
-{% if page.comments && (theme.duoshuo_shortname) %}
-  {% include 'duoshuo.swig' %}
+{% if page.comments && (theme.livere_uid) %}
+  {% include 'livere.swig' %}
 {% endif %}
 
 {# 代码高亮脚本 #}

@@ -1,7 +1,7 @@
 # legend  
 基于 [Hexo](https://hexo.io/) 的主题，完整的预览效果，猛戳 [https://ihongren.github.io](https://ihongren.github.io/)。
 ![](/screenshots/bg.png)
-# Version: 1.0
+# Version: 1.1
 
 # 使用：
 
@@ -61,8 +61,8 @@
    - 以下是必须修改的字段：
 
    ```yaml
-   # comment 多说评论
-   duoshuo_shortname: ihongren
+   # comment 来必力data-uid
+   livere_uid: xxxxxxxxxx
 
    # donate 打赏
    wechatpay: /images/wechatpay.png
@@ -176,4 +176,10 @@ $ hexo new page "about"
 [**MIT** **License**](/LICENSE)
 
 
+
+# 更新记录：
+
+#### v1.1
+
+##### 去掉多说评论，更换为[来必力](https://livere.com/)
 

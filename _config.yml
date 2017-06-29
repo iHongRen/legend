@@ -27,8 +27,8 @@ scripts:
 # theme: 添加本主题 theme: legend ，请确保本主题文件在theme目录下
 ####################################################################################
 
-# comment 多说评论
-duoshuo_shortname: ihongren
+# comment 来必力评论data-uid
+livere_uid: MTAyMC8yOTI2MS81ODI5
 
 # donate 打赏
 wechatpay: /images/wechatpay.png
