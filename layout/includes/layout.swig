@@ -20,7 +20,7 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
 <link rel="stylesheet" href="/plugins/github-markdown.css">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
   {% if theme.stylesheets !== undefined && theme.stylesheets.length > 0 %}
     {# stylesheet list from config.yml #}
     {% for url in theme.stylesheets %}
@@ -38,13 +38,12 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
       {% block body %}    
       {% endblock %}
     </div>
-
-    <!-- 多说评论框 -->    
-    {% if page.comments && (theme.duoshuo_shortname) %}
-      <div class="ds-thread" data-thread-key="{{ page.path }}" data-title="{{ page.title }}" data-url="{{ page.permalink }}"></div>
-    {% endif %}
   </div>
 </div>
+{# 来必力评论脚本 #}
+{% if page.comments && theme.livere_uid %}
+  {% include 'livere.swig' %}
+{% endif %}
 
 {% include 'footer.swig' %} 
 
@@ -57,11 +56,6 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
 
 </body>
 </html>
-
-{# 多少评论脚本 #}
-{% if page.comments && (theme.duoshuo_shortname) %}
-  {% include 'duoshuo.swig' %}
-{% endif %}
 
 {# 代码高亮脚本 #}
 <script>

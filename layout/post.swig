@@ -4,13 +4,13 @@
 {# page页面(其实就是about)，也是用的这里来处理文章排版 #}
 {% block body %}
   <article class="markdown-body">
-    <h1 id="post-title">{{ page.title }}
+    <h2 id="post-title">{{ page.title }}
       {% if is_post() && page.date %} {# 文章页面才显示日期 #}
         <div id="post-time" datetime="{{ date_xml(page.date) }}">
           {{ date(page.date, "YYYY-MM-DD") }}
         </div>
       {% endif %}
-    </h1>
+    </h2>
     {{ page.content }}
   </article>
 

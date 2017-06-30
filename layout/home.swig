@@ -1,6 +1,6 @@
 {# 背景视频播放 #}
 {% if theme.home_video.show %}
-<video id="bgvideo" autoplay loop poster={{ theme.home_video.bgimage }}>
+<video id="bgvideo" autoplay playsinline loop poster={{ theme.home_video.bgimage }}>
   <source src={{ theme.home_video.src }} type="video/mp4">
 </video>
 {% endif %}
