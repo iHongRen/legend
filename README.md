@@ -1,9 +1,9 @@
 # legend  
-基于 [Hexo](https://hexo.io/) 的主题，完整的预览效果，
+基于 [Hexo](https://hexo.io/) 的主题，手机端预览效果，
 
 ![](/screenshots/qr.png)
 
-猛戳 [https://ihongren.github.io](https://ihongren.github.io/)。
+Web端猛戳 [https://ihongren.github.io](https://ihongren.github.io/)
 
 ![](/screenshots/bg.png)
 
