@@ -1,6 +1,12 @@
 # legend  
-基于 [Hexo](https://hexo.io/) 的主题，完整的预览效果，猛戳 [https://ihongren.github.io](https://ihongren.github.io/)。
+基于 [Hexo](https://hexo.io/) 的主题，完整的预览效果，
+
+![](/screenshots/qr.png))
+
+猛戳 [https://ihongren.github.io](https://ihongren.github.io/)。
+
 ![](/screenshots/bg.png)
+
 # Version: 1.1
 
 # 使用：
