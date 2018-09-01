@@ -1,4 +1,4 @@
-# legend  
+# legend  v1.1
 基于 [Hexo](https://hexo.io/) 的主题，手机端预览效果，
 
 ![](/screenshots/qr.png)
@@ -7,7 +7,7 @@ Web端猛戳 [https://ihongren.github.io](https://ihongren.github.io/)
 
 ![](/screenshots/bg.png)
 
-# Version: 1.1
+</Br>
 
 # 使用：
 
@@ -36,6 +36,8 @@ Web端猛戳 [https://ihongren.github.io](https://ihongren.github.io/)
    *INFO  Hexo is running at [http://localhost:4000/](http://localhost:4000/) Press Ctrl+C to stop.* *       
 
 4. 在浏览器里输入 [http://localhost:4000/](http://localhost:4000/)，回车即可看到运行效果。
+
+    </br> 
 
 ---
 
@@ -149,6 +151,8 @@ Web端猛戳 [https://ihongren.github.io](https://ihongren.github.io/)
    about_type: home_about
    ```
 
+</br> 
+
 # 关于(About)页面：
 
 如果你之前没有创建过 **about** 页面，可以通过下面命令得到：
@@ -159,6 +163,8 @@ $ hexo new page "about"
 
 之后会在 **Hexo** 的 **source** 目录自动创建 **about/index.md** ，这个 **index.md** 就是我们的**关于(About)**页面。也就是说使用 **markdown** 语法来写自己的**关于我**。
 
+</br> 
+
 # TODO List: 
 
 - 站内搜索
@@ -167,6 +173,8 @@ $ hexo new page "about"
 - 未知需求
 
 **（希望能有前端小哥给我提PR）**
+
+</br> 
 
 # 鸣谢：
 
@@ -180,7 +188,7 @@ $ hexo new page "about"
 
 [**MIT** **License**](/LICENSE)
 
-
+</br> 
 
 # 更新记录：
 
@@ -192,3 +200,10 @@ $ hexo new page "about"
 
 - **适配移动端**
 
+
+
+####    </br> 
+
+#### 打赏：(感谢支持)
+
+<img src='./screenshots/alipay.png' width='20%' />&emsp;&emsp;<img src='./screenshots/wxpay.png' width='20%' />
